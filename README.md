@@ -10,9 +10,8 @@ Una aplicacion web construida con Vite+React y MySQL con acciones REST y autenti
   - [About](#about)
   - [Features](#features)
   - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
     - [Installation](#installation)
-  - [Usage](#usage)
+    - [Usage](#usage)
   - [Contact](#contact)
 
 ## About
@@ -29,12 +28,14 @@ Y un panel de administracion donde podemos agregar credenciales nuevas para estu
 -Se mantiene la sesion del usuario por navegador usando localStorage
 -Se protegen las rutas en el frontend para que no puedan navegar por donde no se supone que deban.
 -Se protegen los endpoints de el servidor para que tampoco puedan manipular los datos de las tablas sin haber iniciado sesion.
+-Campos de formulario requeridos.
 
 ## Getting Started
 
 1. Asegurate de tener un servidor SQL https://dev.mysql.com/downloads/installer/
 2. Crea una base de datos con el nombre de tu preferencia. 
 3. Crea o modifica el archivo .env.example a solo .env y llena las variables DB_USER, DB_PASSWORD y DB_NAME con los valores necesarios.
+4. Instalar Node.js https://nodejs.org/en
 
 ### Installation
 
